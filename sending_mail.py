@@ -6,7 +6,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
 #authentication
-s.login("pudasainirajesh504@gmail.com","xszvulpcmhbnuner")
+s.login("pudasainirajesh504@gmail.com","your_password")
 
 #number of email to sent the mail
 email = input('Enter Your Email:')
